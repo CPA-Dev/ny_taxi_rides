@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: staging
-    database: dtc-de-405821 
-    schema: trip_all_data
+    database: ny-taxi-412222 
+    schema: trips_all_data
 
     tables:
       - name: green_tripdata
