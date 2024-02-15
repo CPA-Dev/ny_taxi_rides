@@ -1,6 +1,6 @@
 sources:
   - name: staging
-    database: dtc-de-405821 
+    database: ny-taxi-412222 
     schema: hw
 
     tables:
