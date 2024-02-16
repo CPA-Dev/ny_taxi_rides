@@ -21,7 +21,8 @@ select
     dropoff_zone.zone as dropoff_zone,
     fhv_data.pickup_datetime,
     fhv_data.dropoff_datetime,
-    fhv_data.sr_flag
+    fhv_data.sr_flag,
+    fhv_data.affiliated_base_number
 from fhv_data
 inner join dim_zones as pickup_zone
 on fhv_data.pickup_locationid = pickup_zone.locationid

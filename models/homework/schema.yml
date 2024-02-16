@@ -1,7 +1,7 @@
 sources:
   - name: staging
     database: ny-taxi-412222 
-    schema: hw
+    schema: dbt_atran
 
     tables:
       - name: fhv_materialized_table
